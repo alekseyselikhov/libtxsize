@@ -6,10 +6,10 @@ TX_OVERHEAD     = 4 + 4         # 4-byte version, 4-byte locktime
 SEGWIT_OVERHEAD = 2             # 1-byte segwit marker and 1-byte segwit flag
 INPUT_OVERHEAD  = 32 + 4 + 4    # 32-byte txid, 4-byte pos, and 4-byte seq. no
 OUTPUT_OVERHEAD = 8             # 8-byte amount
-ECDSA_SIG       = 71            # cf. http://zen.science/science/on-bitcoin-script-and-witness-sizes/
-ECDSA_PUBKEY    = 33            # cf. http://zen.science/science/on-bitcoin-script-and-witness-sizes/
-SCHNORR_SIG     = 64            # cf. http://zen.science/science/on-bitcoin-script-and-witness-sizes/
-SCHNORR_PUBKEY  = 32            # cf. http://zen.science/science/on-bitcoins-schnorr-signature-algorithm-and-taproot-script-and-witness-sizes/
+ECDSA_SIG       = 71            # cf. http://virtu.llc/science/on-bitcoin-script-and-witness-sizes/
+ECDSA_PUBKEY    = 33            # cf. http://virtu.llc/science/on-bitcoin-script-and-witness-sizes/
+SCHNORR_SIG     = 64            # cf. http://virtu.llc/science/on-bitcoin-script-and-witness-sizes/
+SCHNORR_PUBKEY  = 32            # cf. http://virtu.llc/science/on-bitcoins-schnorr-signature-algorithm-and-taproot-script-and-witness-sizes/
 
 def varint(num_bytes):
     if num_bytes < 0xFD:

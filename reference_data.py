@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Empirical data in line with http://zen.science/science/on-bitcoin-transaction-sizes/
+# Empirical data in line with http://virtu.llc/science/on-bitcoin-transaction-sizes/
 REF_PARTS = {}
 REF_PARTS['P2PK'] = {'input': {'size': 113, 'vsize': 113, 'weight': 452},
                      'witness': {'size': 'N/A', 'vsize': 'N/A', 'weight': 'N/A'},

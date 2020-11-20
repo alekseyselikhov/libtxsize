@@ -120,7 +120,7 @@ reference data provided in `reference_data.py`:
 
 ## Misc
 
-For background on libtxsize see http://zen.science/science/on-bitcoin-transaction-sizes/
+For background on libtxsize see http://virtu.llc/science/on-bitcoin-transaction-sizes/
 
 Feel free to contribute: `16pGpaoAhzoneLdRdxPSo9xAAPhzWnP2dA`.
 If you have scientific, Bitcoin-related freelance work, let me know.
