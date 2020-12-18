@@ -117,10 +117,3 @@ The command-line interface can be used to perform a validation using the
 reference data provided in `reference_data.py`:
 
     ./libtxsize-cli.pi -s
-
-## Misc
-
-For background on libtxsize see http://virtu.llc/science/on-bitcoin-transaction-sizes/
-
-Feel free to contribute: `16pGpaoAhzoneLdRdxPSo9xAAPhzWnP2dA`.
-If you have scientific, Bitcoin-related freelance work, let me know.
